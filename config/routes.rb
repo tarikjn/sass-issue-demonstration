@@ -1,4 +1,6 @@
 Testsass::Application.routes.draw do
+  resources :students, :path => ''
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
